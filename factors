@@ -28,5 +28,5 @@ def factory(num):
         for i in my_file.readlines():
             n = int(i)
             result = factory(n)
-    if __name__ == "__main__":
+            if __name__ == "__main__":
     factors(argv[1])
