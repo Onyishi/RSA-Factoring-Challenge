@@ -2,6 +2,8 @@
 from sys import argv
 import math
 """Factorize as many numbers as possible into a product of 2 smaller nums"""
+
+
 def factory(num):
     """gets the factors of a number"""
     if num % 2 == 0:
@@ -26,5 +28,6 @@ def factory(num):
         for i in my_file.readlines():
             n = int(i)
             result = factory(n)
+            
             if __name__ == "__main__":
     factors(argv[1])
