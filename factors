@@ -22,7 +22,6 @@ def factory(num):
                 print("{}={}*{}".format(num, sq - 1, int(num//(sq - i))))
                 return
 		
-
 def factors(filename):
     """read_file and prints them out"""
 
